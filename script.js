@@ -12,6 +12,13 @@ const listItems= document.querySelectorAll(".fruits") */
 //const img=document.querySelector("img")
 //console.log(img)
 //img.setAttribute("alt" , "updated.jpg")
-const listItems =document.getElementsByClassName("list-Item")
+/* const listItems =document.getElementsByClassName("list-Item")
 //console.log(listItems[0])
-listItems[0].style.color="red"
+//listItems[0].style.color="red"
+listItems.array.forEach(item=>{
+    item.style.color="red"
+}) */
+const listItems =document.getElementsByClassName("list-Item")
+for(let list of listItems){
+    list.style.color="red"
+}
