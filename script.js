@@ -25,5 +25,5 @@ for(let list of listItems){
 const btn = document.getElementById("btn")
 const countText= document.getElementById("count")
 btn.addEventListener("click",function(){
-    alert("clicked")
+   const currentCount= parseInt( countText.innerText) 
 })
