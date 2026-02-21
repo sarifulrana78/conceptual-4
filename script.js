@@ -22,3 +22,8 @@ const listItems =document.getElementsByClassName("list-Item")
 for(let list of listItems){
     list.style.color="red"
 }
+const btn = document.getElementById("btn")
+const countText= document.getElementById("count")
+btn.addEventListener("click",function(){
+    alert("clicked")
+})
